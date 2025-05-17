@@ -27,7 +27,7 @@ This project demonstrates a simple stylized land use allocation model implemente
 
 2. Run the Notebook:
     ```bash
-    jupyter notebook land_use_model.ipynb
+    jupyter notebook Land_Use_Spatial_Equilibrium_Model.ipynb
     ```
 
 3. Optionally, run the Dash app:
@@ -38,7 +38,7 @@ This project demonstrates a simple stylized land use allocation model implemente
         ```
     - This will open a browser at `http://127.0.0.1:8050`.
 
-## Dash Features
+## Dash App Features
 
 - Interactive 3D surface plot of `Production Price`, `Carbon Price`, and `Allocation`.
 - A slider allows you to dynamically change the `Carbon Rate` and `Region`.

@@ -14,7 +14,7 @@ This project demonstrates a simple stylized land use allocation model implemente
 
 ## Repository Structure
 
-- `land_use_model.ipynb`: Jupyter Notebook containing model definition, parameter sensitivity analysis, data visualization, and discussion of results.
+- `Land_Use_Spatial_Equilibrium_Model.ipynb`: Jupyter Notebook containing model definition, parameter sensitivity analysis, data visualization, and discussion of results.
 - The model explores how welfare responds to changes in production price, carbon price, and carbon sequestration rate, including interaction effects.
 - Additionally, the Notebook shows how to deploy the resulting dataset into a Dash app for interactive exploration.
 
@@ -38,10 +38,10 @@ This project demonstrates a simple stylized land use allocation model implemente
         ```
     - This will open a browser at `http://127.0.0.1:8050`.
 
-## Dash App Features
+## Dash Features
 
-- Interactive 3D surface plot of `Production Price`, `Carbon Price`, and `Welfare`.
-- A slider allows you to dynamically change the `Carbon Rate` and instantly see the updated welfare surface.
+- Interactive 3D surface plot of `Production Price`, `Carbon Price`, and `Allocation`.
+- A slider allows you to dynamically change the `Carbon Rate` and `Region`.
 - Built using `Plotly` and `Dash`, enabling deployment as a lightweight web app for decision support or demonstration.
 
 ---
